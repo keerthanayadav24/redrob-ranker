@@ -3,7 +3,7 @@ import axios from 'axios';
 import { Sparkles, Briefcase } from 'lucide-react';
 import './index.css';
 
-const API = 'http://localhost:8000';
+const API = "https://redrob-ranker-82gz.onrender.com";
 
 function App() {
   const [candidates, setCandidates]               = useState([]);
