@@ -6,7 +6,7 @@ Usage:
 
 Produces:
     data/top100.json     → loaded by FastAPI for the live demo website
-    data/team_keerthana.csv     → submit this to the Redrob portal
+    data/team_keerthana.csv     → to submit this to the Redrob portal
 
 Runtime: ~90 seconds on CPU. No GPU, no network, no API calls.
 """
