@@ -127,9 +127,7 @@ def skill_match_score(candidate, jd_text):
         + career_text
     )
 
-    # -----------------------------
     # Must-have skills (High Weight)
-    # -----------------------------
     must_have = {
         "python": 10,
         "embedding": 10,
@@ -156,9 +154,7 @@ def skill_match_score(candidate, jd_text):
         "map": 7,
     }
 
-    # -----------------------------
     # Nice-to-have
-    # -----------------------------
     nice_to_have = {
         "langchain": 3,
         "docker": 3,
