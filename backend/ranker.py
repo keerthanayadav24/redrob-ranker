@@ -11,8 +11,7 @@ try:
     model = SentenceTransformer('all-MiniLM-L6-v2')
 except Exception:
     # If network is unavailable and not cached, this will fail.
-    # The hackathon requires no network *during* ranking, so the model must be
-    # downloaded beforehand.
+    # The hackathon requires no network *during* ranking, so the model must be downloaded beforehand.
     model = None
 
 
