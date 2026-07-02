@@ -1,0 +1,8 @@
+candidates.jsonl
+candidates.jsonl.gz
+__pycache__/
+*.pyc
+.env
+node_modules/
+dist/
+.vite/
