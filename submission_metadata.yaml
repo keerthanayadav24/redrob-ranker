@@ -1,0 +1,81 @@
+
+
+# ============================================================================
+# Team identity
+# ============================================================================
+team_name: "Keerthana S Yadav"  
+
+primary_contact:
+  name: "Keerthana S Yadav"
+  email: "keerthanayadav24@gmail.com"  
+  phone: "+91-9902229318"        
+
+team_members:
+  name: "Keerthana S Yadav"
+  email: "keerthanayadav24@gmail.com"  
+  phone: "+91-9902229318"
+
+
+# ============================================================================
+# Code and reproducibility
+# ============================================================================
+github_repo: "https://github.com/keerthanayadav24/redrob-ranker"
+
+sandbox_link: "https://super-queijadas-0eac3f.netlify.app/"
+
+
+reproduce_command: "python rank.py"
+
+# ============================================================================
+# Compute environment
+# ============================================================================
+compute:
+  platform: "Local Windows Machine"
+  cpu_cores: 8
+  ram_gb: 16
+  python_version: "3.13"
+  os: "Windows 11"
+  uses_gpu_for_inference: false
+  has_network_during_ranking: false
+  pre_computation_required: false
+  pre_computation_time_minutes: 0
+
+# ============================================================================
+# AI tools declaration
+# ============================================================================
+ai_tools_used:
+  - "Claude"        
+  - "ChatGPT"  
+  - "Gemini"
+
+ai_usage_summary: |
+
+  Claude was used for architecture discussions, coding the base model.
+  Gemini was used for updating the codebase.
+  ChatGPT was used for code review, bug fixing, and testing,
+  documentation, UI improvements, deployment guidance, and presentation support.
+  All project design decisions, implementation, testing, validation, and final
+  candidate ranking logic were verified and integrated.
+
+# ============================================================================
+# Approach summary (optional but recommended)
+# ============================================================================
+methodology_summary: |
+ CandidateIQ is an AI-powered recruitment platform that performs semantic
+  candidate retrieval using Sentence Transformers and cosine similarity.
+  Retrieved candidates are evaluated using a hybrid weighted scoring engine
+  that considers semantic relevance, skills, experience, location, notice
+  period, and profile quality. Honeypot detection penalizes suspicious or
+  inconsistent profiles before generating an explainable Top 100 candidate
+  ranking. The solution is deployed using a React frontend, FastAPI backend,
+  Netlify, and Render while meeting CPU-only runtime constraints.
+
+# ============================================================================
+# Declarations
+# ============================================================================
+declarations:
+  read_submission_spec: true
+  code_is_original_work: true
+  no_collusion: true
+  honeypot_check_done: true
+  reproduction_tested: true
